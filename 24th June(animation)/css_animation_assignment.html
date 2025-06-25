@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        button{
+            background-color: blue;
+            animation-name: but, but1;
+            animation-duration:0.5s;
+            animation-iteration-count: infinite;
+            width: 100px;
+            height: 20px;
+
+        }
+        button:hover{
+            animation-play-state: paused;
+        }
+        @keyframes but{
+            from{
+                background-color: blue;
+            }
+            to{
+                background-color: red;
+            }
+           
+        }
+         @keyframes but1{
+            0%{
+                position: static;
+                left:0px;
+            }
+            50%{
+                position: relative;
+                left: 150px;
+               width:120px;
+               height: 40px;
+              
+            }
+         }
+         .gear{
+ font-size: 40px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+  border-radius: 8px;
+  animation: rotateGear 4s linear infinite;
+  margin: 20px;
+         }
+         
+         
+         @keyframes rotateGear{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            }
+         
+    </style>
+</head>
+<body>
+    <div>
+     <button>Submit</button>
+    
+   </div>
+   <br>
+   <!-- task 2 -->
+    <div class="gear">
+       ⚙️
+    </div>
+    <br>
+    
+</body>
+</html>

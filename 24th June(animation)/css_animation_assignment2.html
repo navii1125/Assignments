@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 600px;
+            height: 400px;
+            border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(green, skyblue, yellow);
+            animation-name: backkround;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            
+        }
+        h1{
+            color:blueviolet;
+        opacity: 0;
+        transform: translateX(-100px);
+        animation-name: slide;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+
+        }
+        @keyframes slide{
+            from{
+                opacity: 0;
+                 transform: translateX(-100px);
+            }
+
+            to{
+                opacity: 1;
+                transform: translateX(0px);
+            }}
+            @keyframes backkround{
+from{
+    background: linear-gradient(green, skyblue, yellow);
+}
+to{
+    background: linear-gradient(pink,white,orange);
+}
+            }
+                
+            
+        
+    </style>
+</head>
+<body>
+ <div class="container">
+    <h1>Welcome to CSS World</h1>
+ </div>
+</body>
+</html>
