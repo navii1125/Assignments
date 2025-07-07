@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+nav{
+    transform: translateY(30px);
+}
+nav img{
+}
+.nav-search input{
+    width: 220px;
+    height: 50px;
+border: 1px solid none;
+border-radius: 30px;
+margin-top: 10px;
+font-weight: bold;
+color:lightgrey;
+margin-right:200px ;
+
+}
+
+.nav-search ::placeholder{
+    color: lightgrey;
+}
+nav ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.search-icon{
+    background-image: url("https://img.icons8.com/ios-filled/50/EBEBEB/search--v1.png");
+    background-repeat: no-repeat;
+   background-size: 30px 30px;
+ background-position:left;
+   
+   
+
+}
+ 
+.navbar a {
+  color: white;               /* Default color */
+  text-decoration: none;     
+  padding: 10px 15px;
+  display: inline-block;     /* Makes padding clickable */
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: pink;  
+}
+#home{
+    color: pink;
+}
+#pro{
+    width: 120px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: rgb(110, 102, 102);
+      transition: color 0.3s ease;
+
+}
+.navbar #pro:hover{
+    background-color: pink;
+}
+.navbar #pro a:hover{
+    color:white;
+    background-color:pink;
+}
+#pro img{
+    width: 40px;
+height: 40px;
+border-radius: 20px;
+position: relative;
+top: 5px;
+right: 2px;}
+#pro a{
+
+    background-color: rgb(110, 102, 102) ;
+  position: relative;
+  bottom: 8px;
+  left: 2px;
+  border-radius: 30px;
+}
+.banner{
+    width:95%;
+    height: 1900px;
+ 
+    background-color: rgb(80, 74, 74);
+    transform: translateX(70px);
+    border: 1px solid none;
+    border-radius: 30px;
+    position: relative;
+    top: 30px;
+    right: 30px;}
+
+    .fortnite-section {
+        background-color: rgb(80, 74, 74);
+        width: 100%;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  position: relative;
+  top: 30px;
+}
+
+.fortnite-images {
+            background-color: rgb(80, 74, 74);
+
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#a{
+    width: 400px;
+    height: 320px;
+    position: relative;
+right: 0px;;
+}
+#b{
+    width:900px;
+    height: 320px;
+    position: relative;
+   left: 10px;
+    
+}
+
+.fortnite-poster,
+.fortnite-gameplay {
+            background-color: rgb(80, 74, 74);
+
+  width: 100%;
+  
+  border-radius: 20px;
+}
+
+.fortnite-video {
+  position: relative;
+          background-color: rgb(80, 74, 74);
+
+}
+
+.fortnite-video .play-button {
+    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fortnite-title {
+            background-color: rgb(80, 74, 74);
+
+  margin-top: 60px;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}.fortnite-details-container {
+width: 95%;
+height: 700px;
+  background-color: #2a2a2a;
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+}
+
+
+
+.game-images {
+    width: 1300px;
+    height: 250px;
+    background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ 
+  margin-bottom: 30px;
+}
+
+.game-images img {
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+  background-color: #2a2a2a;
+}
+.game-description{
+    width: 1200px;
+    background-color: #2a2a2a;
+    position: relative;
+    left: 10px;
+   
+}
+
+.game-description p {
+    width:fit-content;
+  color: #ccc;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto 30px;
+  text-align: center;
+  background-color: #2a2a2a;
+  font-size: 18px;
+}
+strong{
+      background-color: #2a2a2a;
+
+}
+
+#download {
+    width:1200px;
+  display: inline-block;
+  padding: 12px 30px;
+  border: 2px solid #e91e63;
+  border-radius: 30px;
+  color: #e91e63;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  text-decoration: none;
+  background-color: #2a2a2a;
+  position: relative;
+  left: 50px;
+  bottom: 10px;
+}
+#download a{
+    text-decoration: none;
+    color:hotpink;
+    background-color: #2a2a2a;
+}
+#download a:hover {
+ background-color: white;
+ 
+  
+}
+#download:hover{
+    background-color: white;
+}
+.game-meta{
+ 
+    background-color: rgb(80, 74, 74);
+    border:1px solid ;
+    width: 550px;
+    height: 110px;
+    border-radius: 30px;
+   
+}
+.game-meta h3 {
+width: 350px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(80, 74, 74);
+  
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.game-meta p {
+    width: 350px;
+ position: relative;
+ top: 40px;
+ left: 20px;
+  color: #aaa;
+  background-color: rgb(80, 74, 74);
+}
+#i i.fa-star{
+    color:yellow;
+    background-color: rgb(80, 74, 74);
+}
+#j i.fa-download{
+    color:hotpink;
+    background-color: rgb(80, 74, 74);
+
+}
+#i{
+    font-size: 18px;
+    position: relative;
+    left: 250px;
+    background-color: rgb(80, 74, 74);
+    color:white;
+}
+#j{
+    position: relative;
+    left: 180px;
+    background-color: rgb(80, 74, 74);
+}
+
+.meta-stats span {
+position: relative;
+left: 300px;
+  font-size: 10px;
+}
+
+.meta-stats i.fa-star {
+  color: yellow;
+  margin-right: 5px;
+}
+
+.meta-stats i.fa-download {
+  color: hotpink;
+  margin-right: 5px;
+}
+
+/* right block with stats */
+.game-stats {
+    width: 550px;
+    height: 110px;
+    border: 1px solid white;
+    border-radius: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: rgb(80, 74, 74);
+}
+
+.stat {
+  background-color:rgb(80, 74, 74);
+  position: relative;
+  top: 50px;
+  left: 130px;
+  border-radius: 15px;
+  font-size: 14px;
+  text-align: center;
+  width:50px;
+  height: 50px;
+
+}
+
+.stat i.fa-star {
+  color: yellow;
+  font-size: 30px;
+  position: relative;
+  bottom:10px;
+  margin-right: 5px;
+  background-color: rgb(80, 74, 74);
+  
+}
+
+.stat i.fa-download,
+.stat i.fa-hdd,
+.stat i.fa-gamepad {
+  color: hotpink;
+  margin-right: 5px;
+  position: relative;
+  font-size: 30px;
+  bottom: 12px;
+  background-color: rgb(80, 74, 74);
+}
+.fortnite-header {
+    width: 100%;
+    height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ gap: 80px;
+  margin-bottom: 30px;
+  background-color: #2a2a2a;
+
+}
+.related-games {
+  background-color: #2a2a2a;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 100px;
+  width: 95%;
+  margin-left: 40px;
+  height: 600px;
+}
+
+.related-games h2 {
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  margin-bottom: 20px;
+    background-color: #2a2a2a;
+
+}
+.right{background-color: #2a2a2a;}
+.related-games h2 span {
+  color: hotpink;
+    background-color: #2a2a2a;
+
+}
+.left{
+    background-color: #2a2a2a;
+}
+.related-games-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+    background-color: #2a2a2a;
+
+}
+
+.related-games-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+    background-color: #2a2a2a;
+
+}
+
+.related-game-item {
+    height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2a2a;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.related-game-item .left {
+  display: flex;
+  align-items: center;
+    background-color: #2a2a2a;
+
+
+}
+
+.related-game-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.related-game-item .info h4 {
+  margin: 0;
+  color: white;
+    background-color: #2a2a2a;
+
+}
+
+.related-game-item .info p {
+  margin: 0;
+  color: #aaa;
+    background-color: #2a2a2a;
+
+}
+
+.related-game-item .right span {
+  margin-left: 15px;
+  font-size: 14px;
+  color: white;
+    background-color: #2a2a2a;
+
+}
+
+.related-game-item .right i.fa-star {
+  color: yellow;
+  margin-right: 5px;
+    background-color: #2a2a2a;
+
+}
+
+.related-game-item .right i.fa-download {
+  color: hotpink;
+  margin-right: 5px;
+    background-color: #2a2a2a;
+
+}
+footer{
+    width:100%;
+    height: 100px;
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+}

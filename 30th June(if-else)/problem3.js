@@ -55,7 +55,7 @@ if (original === reverse) {
 } else {
   console.log(original + " is NOT a palindrome number");
 }
-check if the sum of the digits of a number is even or odd
+//check if the sum of the digits of a number is even or odd
 let k=145
 let sum=0
 let digit=0
